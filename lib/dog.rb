@@ -3,6 +3,7 @@ class Dog
     @name = name
     @@all << self
   end
+  
   attr_accessor :name
   @@all = []
 
